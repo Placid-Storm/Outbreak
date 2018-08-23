@@ -7,7 +7,7 @@ import net.minecraft.init.Blocks;
 
 public class ModPodzol extends BlockBase {
 
-    public ModPodzol(String name, Material material){
+    public ModPodzol(String name, Material material) {
 
         super(name, material);
         setSoundType(SoundType.GROUND);
@@ -15,6 +15,7 @@ public class ModPodzol extends BlockBase {
         setResistance(15.0f);
         setHarvestLevel("pickaxe", 2);
         setLightLevel(1.0f);
-        //IBlockState PODZOL = Blocks.DIRT.getStateFromMeta(2);
+        IBlockState PODZOL = Blocks.DIRT.getStateFromMeta(2);
+        System.out.println("I can see PODZOL");
     }
 }
