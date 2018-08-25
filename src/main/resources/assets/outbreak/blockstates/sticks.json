@@ -1,5 +1,9 @@
 {
   "variants": {
-    "normal": { "model": "outbreak:sticks" }
+    "normal": { "model": "outbreak:sticks" },
+    "facing=south":{"model":"outbreak:sticks"},
+    "facing=west":{"model":"outbreak:sticks","y":90},
+    "facing=north":{"model":"outbreak:sticks","y":180},
+    "facing=east":{"model":"outbreak:sticks","y":270}
   }
 }
