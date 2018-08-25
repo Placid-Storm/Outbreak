@@ -1,0 +1,18 @@
+plugins {
+    id "com.placid_storm.Outbreak" version "1.0.6"
+}
+
+curseforge {
+    apiKey = project.hasProperty("apikey") ? project.apikey : ""
+
+    project {
+        id = "301578"
+
+        addGameVersion "1.12.2"
+        addGameVersion "Java 8"
+
+        mainArtifact(jar) {
+            releaseType = buildtype
+        }
+    }
+}
