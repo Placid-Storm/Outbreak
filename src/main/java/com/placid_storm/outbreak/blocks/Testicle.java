@@ -25,8 +25,6 @@ public class Testicle extends BlockBase {
         setHarvestLevel("pickaxe", 0);
         setCreativeTab(CreativeTabs.MATERIALS);
         setBlockUnbreakable();
-        //setLightLevel(1.0f);
-        //setLightOpacity(255);
     }
 
     @SideOnly(Side.CLIENT)
@@ -55,7 +53,9 @@ public class Testicle extends BlockBase {
     {
         return BlockRenderLayer.TRANSLUCENT;
     }
-//False exposes the texture of the block behind it.
+    /**
+     * Used to determine ambient occlusion and culling when rebuilding chunks for render
+     */
     public boolean isOpaqueCube(IBlockState state)
     {
         return false;

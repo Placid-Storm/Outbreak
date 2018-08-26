@@ -2,9 +2,12 @@ package com.placid_storm.outbreak.util.handlers;
 
 import com.placid_storm.outbreak.init.ModBlocks;
 import com.placid_storm.outbreak.init.ModItems;
+import com.placid_storm.outbreak.util.CustomTabs;
 import com.placid_storm.outbreak.util.IHasModel;
 import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;

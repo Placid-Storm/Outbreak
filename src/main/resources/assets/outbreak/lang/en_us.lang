@@ -1,0 +1,5 @@
+//Blocks
+tile.sticks.name=Pile Of Sticks
+
+//Creative Tabs
+itemGroup.custom=Custom Tab
