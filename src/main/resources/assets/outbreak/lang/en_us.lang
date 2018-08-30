@@ -1,5 +1,6 @@
 //Blocks
 tile.sticks.name=Pile Of Sticks
+tile.testicle.name=Test Block
 
 //Creative Tabs
-itemGroup.custom=Custom Tab
+itemGroup.modblocks=Outbreak Blocks

@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 
 public class CustomTabs extends CreativeTabs {
 
-    public static CreativeTabs CUSTOM = new CreativeTabs("custom") {
+    public static CreativeTabs MODBLOCKS = new CreativeTabs("modblocks") {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModBlocks.STICKS);
@@ -14,7 +14,7 @@ public class CustomTabs extends CreativeTabs {
     };
 
     public CustomTabs(String label) {
-        super("custom");
+        super("modblocks");
         this.setBackgroundImageName("custom.png");
     }
 
